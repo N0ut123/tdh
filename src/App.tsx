@@ -18,7 +18,7 @@ function App() {
               <span className="w-1.5 h-1.5 rounded-full bg-bronze"></span>
               <span className="text-[10px] font-medium tracking-[0.2em] text-bronze uppercase">Mentoria Legado de Autoridade</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-[1.1] mb-6 font-light">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-garamond leading-[1.1] mb-6 font-light">
               O erro invisível na sua imagem que <span className="italic text-bronze">afasta clientes de alto valor</span> e mantém seus honorários estagnados.
             </h1>
             <p className="text-lg text-cream/80 mb-10 font-light leading-relaxed max-w-xl">
@@ -60,7 +60,7 @@ function App() {
       <section className="py-24 bg-cream relative">
         <div className="absolute inset-0 bg-architectural-dark opacity-30"></div>
         <div className="container mx-auto px-6 max-w-4xl text-center relative z-10">
-          <h2 className="text-3xl md:text-5xl font-serif mb-8 text-navy leading-tight">Você não estudou anos para ser <br/><span className="italic text-bronze">"apenas mais um"</span>.</h2>
+          <h2 className="text-3xl md:text-5xl font-metropolis mb-8 text-navy leading-tight">Você não estudou anos para ser <br/><span className="italic text-bronze">"apenas mais um"</span>.</h2>
           <div className="space-y-6 text-lg text-graphite/80 font-light leading-relaxed">
             <p>
               Você atingiu o <strong>"Platô da Indicação"</strong>. Você é excelente tecnicamente, ganha causas complexas, mas seu crescimento depende quase exclusivamente do boca a boca.
@@ -96,7 +96,7 @@ function App() {
             <div className="absolute inset-0 bg-architectural opacity-30 pointer-events-none"></div>
             <div className="relative z-10">
               <span className="text-bronze text-[10px] tracking-[0.2em] uppercase mb-4 block">Quem é Rafael Monteiro?</span>
-              <h2 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">O Arquiteto da <br/><span className="italic text-bronze">Autoridade Jurídica.</span></h2>
+              <h2 className="text-4xl md:text-5xl font-metropolis mb-8 leading-tight">O Arquiteto da <br/><span className="italic text-bronze">Autoridade Jurídica.</span></h2>
               <div className="space-y-6 text-cream/80 font-light leading-relaxed">
                 <p>
                   Rafael Monteiro não é um "vendedor de cursos" ou um generalista do marketing digital. Com 38 anos e uma carreira pautada pela sobriedade, ele se consolidou como a mente por trás do posicionamento de grandes bancas e sócios de elite.
@@ -118,7 +118,7 @@ function App() {
         <div className="container mx-auto px-6 max-w-6xl">
           <div className="text-center mb-20">
             <span className="text-bronze text-[10px] tracking-[0.2em] uppercase mb-4 block">A Engenharia</span>
-            <h2 className="text-4xl md:text-5xl font-serif text-navy mb-6">O Método Tridimensional</h2>
+            <h2 className="text-4xl md:text-5xl font-metropolis text-navy mb-6">O Método Tridimensional</h2>
             <p className="text-graphite/70 max-w-2xl mx-auto font-light leading-relaxed">A engenharia exata para construir uma percepção de alto valor e se distanciar da massa jurídica, sem ferir a ética da OAB.</p>
           </div>
 
@@ -158,7 +158,7 @@ function App() {
       {/* Deliverables */}
       <section className="py-24 bg-[#F0EDE5] border-y border-graphite/5">
         <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-navy text-center mb-16 italic font-light">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-metropolis text-navy text-center mb-16 italic font-light">
             Seu Passaporte para o Padrão Ouro de Posicionamento
           </h2>
           
@@ -199,7 +199,7 @@ function App() {
       <section className="py-24 bg-navy text-cream relative overflow-hidden">
         <div className="absolute inset-0 bg-architectural opacity-30"></div>
         <div className="container mx-auto px-6 max-w-4xl relative z-10">
-          <h2 className="text-3xl md:text-5xl font-serif mb-16 text-center leading-tight">
+          <h2 className="text-3xl md:text-5xl font-metropolis mb-16 text-center leading-tight">
             O que acontece quando sua imagem <br/><span className="italic text-bronze">se alinha ao seu intelecto.</span>
           </h2>
           <div className="space-y-4 max-w-2xl mx-auto">
@@ -222,7 +222,7 @@ function App() {
         <div className="absolute inset-0 bg-architectural-dark opacity-20"></div>
         <div className="container mx-auto px-6 max-w-3xl relative z-10">
           <span className="text-bronze text-[10px] tracking-[0.2em] uppercase mb-6 block">Acesso Restrito</span>
-          <h2 className="text-4xl md:text-5xl font-serif text-navy mb-8 leading-tight">
+          <h2 className="text-4xl md:text-5xl font-metropolis text-navy mb-8 leading-tight">
             Este não é um curso para todos.<br/>
             <span className="italic text-bronze">É uma mesa estratégica para poucos.</span>
           </h2>
@@ -254,7 +254,7 @@ function App() {
       {/* FAQ */}
       <section className="py-24 bg-[#F0EDE5] border-t border-graphite/5">
         <div className="container mx-auto px-6 max-w-3xl">
-          <h2 className="text-3xl md:text-4xl font-serif text-navy mb-12 text-center">Perguntas Frequentes</h2>
+          <h2 className="text-3xl md:text-4xl font-metropolis text-navy mb-12 text-center">Perguntas Frequentes</h2>
           <div className="space-y-4">
             <FaqItem 
               question="Preciso fazer 'dancinhas' ou expor minha vida pessoal?"
