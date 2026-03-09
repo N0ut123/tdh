@@ -217,6 +217,36 @@ function App() {
         </div>
       </section>
 
+      {/* A Oferta */}
+      <section className="py-24 bg-cream relative">
+        <div className="container mx-auto px-6 max-w-4xl">
+          <div className="bg-white border border-graphite/10 p-12 lg:p-16 relative shadow-[0_20px_40px_rgba(0,0,0,0.04)] rounded-sm">
+            <div className="absolute top-0 left-0 w-full h-1 bg-bronze"></div>
+            <div className="text-center mb-12">
+              <span className="text-bronze text-[10px] tracking-[0.2em] uppercase mb-4 block">A Oferta</span>
+              <h2 className="text-3xl md:text-4xl font-metropolis text-navy mb-4">Mentoria Legado de Autoridade</h2>
+            </div>
+            
+            <div className="space-y-2 max-w-2xl mx-auto mb-12">
+              {[
+                "Análise individual de perfil.",
+                "Plano de semiótica visual personalizado.",
+                "Estratégia de conteúdo anti-commodity."
+              ].map((benefit, i) => (
+                <div key={i} className="flex items-center gap-6 p-6 border border-graphite/5 bg-cream/30 hover:bg-cream/80 transition-colors">
+                  <div className="w-1.5 h-1.5 bg-bronze rotate-45 shrink-0"></div>
+                  <p className="text-lg font-light text-graphite/90">{benefit}</p>
+                </div>
+              ))}
+            </div>
+            
+            <div className="text-center border-t border-graphite/10 pt-10">
+              <p className="text-sm font-medium tracking-[0.2em] text-bronze uppercase">Vagas Limitadas por Ciclo</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing & Application */}
       <section className="py-32 bg-cream text-center relative">
         <div className="absolute inset-0 bg-architectural-dark opacity-20"></div>
